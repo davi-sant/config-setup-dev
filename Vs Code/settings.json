@@ -1,0 +1,229 @@
+{
+  // Editor settings
+  "editor.fontSize": 13,
+  "editor.lineHeight": 26,
+  "editor.fontFamily": "Zed Mono", //"JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.renderLineHighlight": "gutter",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.accessibilitySupport": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": {
+    "[jsonc]": "vscode.json-language-features"
+  },
+
+  // Workbench settings
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "Min Gruvbox",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Explorer settings
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Terminal settings
+  "terminal.integrated.showExitAlert": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  // Emmet settings
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // JavaScript settings
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // TypeScript settings
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "typescript.suggest.autoImports": true,
+  "typescript.tsserver.log": "off",
+
+  // cSpell settings
+  "cSpell.userWords": [
+    "chakra",
+    "clsx",
+    "Dotenv",
+    "dtos",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "Gruvbox",
+    "Hono",
+    "IUGU",
+    "jupiter",
+    "kube",
+    "kubernetes",
+    "liveshare",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "polacode",
+    "prefetch",
+    "rocketseat",
+    "rotion",
+    "screencast",
+    "sequelizerc",
+    "stylelintrc",
+    "trpc",
+    "TRPC",
+    "typeorm",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert",
+    "websockets"
+  ],
+  "cSpell.language": "en,en-US,pt-BR",
+  "cSpell.enableFiletypes": [
+    "!asciidoc", "!c", "!cpp", "!csharp", "!go", "!handlebars", "!haskell", "!jade",
+    "!java", "!latex", "!php", "!pug", "!python", "!restructuredtext", "!rust",
+    "!scala", "!scss"
+  ],
+
+  // Extensions settings
+  "extensions.ignoreRecommendations": true,
+
+  // Live Share settings
+  "liveshare.featureSet": "insiders",
+
+  // Breadcrumbs settings
+  "breadcrumbs.enabled": true,
+
+  // Update settings
+  "update.mode": "start",
+
+  // Files associations
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  // Material Icon Theme settings
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.languages.associations": {
+    "dotenv": "tune"
+  },
+  "material-icon-theme.files.associations": {
+    "tsconfig.json": "tune",
+    "*.webpack.js": "webpack",
+    "*.proto": "3d",
+    "rbconfig.json": "database"
+  },
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract", "grpc": "pipe", "kube": "kubernetes", "main": "lib",
+    "websockets": "pipe", "implementations": "core", "protos": "pipe",
+    "entities": "class", "kafka": "pipe", "use-cases": "functions",
+    "migrations": "tools", "schemas": "class", "useCases": "functions",
+    "eslint-config": "tools", "typeorm": "database", "_shared": "shared",
+    "mappers": "meta", "fakes": "mock", "modules": "components",
+    "subscribers": "messages", "domain": "class", "protocols": "contract",
+    "infra": "app", "view-models": "views", "presentation": "template",
+    "dtos": "typescript", "http": "container", "providers": "include",
+    "factories": "class", "repositories": "mappings"
+  },
+
+  // Polacode settings
+  "polacode.transparentBackground": true,
+  "polacode.target": "snippet",
+
+  // Security settings
+  "security.workspace.trust.untrustedFiles": "newWindow",
+
+  // GitLens settings
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+
+  // Git settings
+  "git.enableSmartCommit": true,
+
+  // Screencast settings
+  "screencastMode.onlyKeyboardShortcuts": true,
+
+  // Prisma settings
+  "[prisma]": {
+    "editor.formatOnSave": false
+  },
+
+  // Files exclusion settings
+  "files.exclude": {
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.git": true
+    // "node_modules": true
+  },
+
+  // --------------------
+
+    // Auto Save
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 500, // 0.5 seconds delay
+  
+    // Auto Closing Brackets
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoSurround": "languageDefined",
+  
+    // Auto Indent
+    "editor.autoIndent": "full",
+  
+    // Cursor Blinking
+    "editor.cursorBlinking": "phase", // Options: 'blink', 'smooth', 'phase', 'expand', 'solid'
+    "editor.cursorSmoothCaretAnimation": "on",
+  
+    // Quick Suggestions
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.quickSuggestionsDelay": 10,
+  
+    // Other useful settings for fast typing
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.parameterHints.enabled": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
+    "editor.tabCompletion": "on",
+    "editor.formatOnType": true,
+  
+    // Adding configurations to disable distractions
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.guides.indentation": false,
+    "workbench.productIconTheme": "icons-carbon"
+}
+
